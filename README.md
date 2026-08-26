@@ -25,7 +25,7 @@ Welcome to my SQL Projects directory! This repository contains a collection of d
 * **Window Functions:** `ROW_NUMBER()`, `RANK()`, `LEAD()`, `LAG()`.
 
 ## 🚀 How to Run These Queries
-1. Download the corresponding raw data files from the **[Datasets Folder Name]** located in this repository.
+1. Download the corresponding raw data files from the **Datasets Folder** located in this repository.
 2. Import the `.csv` or `.xlsx` files into your preferred SQL database management tool (such as pgAdmin, MySQL Workbench, or DBeaver) to create the necessary tables.
 3. Open the `.sql` scripts provided in this folder and execute the queries against your newly created tables.
 
