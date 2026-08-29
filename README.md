@@ -15,6 +15,20 @@ Welcome to my SQL Projects directory! This repository contains a collection of d
   * `products.csv`: Details product categories, pricing, and inventory data.
   * `sales.csv`: Logs transactional records linking customers to the products purchased.
 
+### #2. AgriTrends: Multi-Decade USDA Production & Market Share Analysis
+
+* **Description:** An analytical SQL project evaluating multi-decade production trajectories, state-level market concentration, and commodity trends across United States agriculture.
+* **Key Techniques:** Multi-table `JOIN` operations, Common Table Expressions (`CTE`), Window Functions (`DENSE_RANK`, `LAG`), Conditional Aggregation (`CASE WHEN`), Data Cleansing & Type Casting.
+* **Objective:** To clean granular time-series data, resolve grain mismatches between monthly records and annual summaries, and construct automated ranking pipelines to identify market leaders across major agricultural commodities.
+* **Scripts:** `usda_production_queries.sql`
+* **Datasets:** The analysis is built on a multi-table relational schema utilizing the following files located in the `datasets/` directory:
+  * `state_lookup.csv`: Dimension table mapping FIPS/State ANSI codes to state names.
+  * `cheese_production.csv`: Fact table recording monthly and annual cheese production (1970–2023).
+  * `milk_production.csv`: Fact table containing 100 years of state-level dairy output (1924–2023).
+  * `honey_production.csv`: Annual honey production metrics and historical yield data.
+  * `egg_production.csv`: Fact table covering multi-decade commercial egg production figures.
+  * `yogurt_production.csv`: Fact table detailing regional yogurt manufacturing output.
+  * `coffee_production.csv`: Fact table capturing specialized domestic coffee production trends.
 
 ## 🛠️ Skills & Commands Demonstrated
 
