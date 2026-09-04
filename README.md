@@ -10,7 +10,7 @@ Welcome to my SQL Projects directory! This repository contains a collection of d
 * **Key Techniques:** Multi-table `JOIN` operations, Cohort Analysis, Advanced Aggregation, Data Cleaning.
 * **Objective:** To merge customer demographics with transactional data to identify high-value products and optimize sales strategies.
 * **Scripts:** `retail_nexus_queries.sql`
-* **Datasets:** The analysis is built on a relational schema utilizing the following three files located in the `[Datasets Folder Name]` directory:
+* **Datasets:** The analysis is built on a relational schema utilizing the following three files located in the `[Retail_Nexus_Data_Source_files]` directory:
   * `customers .csv`: Contains customer demographics and account information.
   * `products.csv`: Details product categories, pricing, and inventory data.
   * `sales.csv`: Logs transactional records linking customers to the products purchased.
@@ -21,7 +21,7 @@ Welcome to my SQL Projects directory! This repository contains a collection of d
 * **Key Techniques:** Multi-table `JOIN` operations, Common Table Expressions (`CTE`), Window Functions (`DENSE_RANK`, `LAG`), Conditional Aggregation (`CASE WHEN`), Data Cleansing & Type Casting.
 * **Objective:** To clean granular time-series data, resolve grain mismatches between monthly records and annual summaries, and construct automated ranking pipelines to identify market leaders across major agricultural commodities.
 * **Scripts:** `usda_production_queries.sql`
-* **Datasets:** The analysis is built on a multi-table relational schema utilizing the following files located in the `datasets/` directory:
+* **Datasets:** The analysis is built on a multi-table relational schema utilizing the following files located in the `USDA_DATASET` directory:
   * `state_lookup.csv`: Dimension table mapping FIPS/State ANSI codes to state names.
   * `cheese_production.csv`: Fact table recording monthly and annual cheese production (1970–2023).
   * `milk_production.csv`: Fact table containing 100 years of state-level dairy output (1924–2023).
